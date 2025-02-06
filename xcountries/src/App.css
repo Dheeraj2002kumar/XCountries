@@ -1,0 +1,33 @@
+.heading{
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+.country-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(199, 195, 195);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  width: 175px;
+  height: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.flag-img{
+  width: 100px;
+  height: 100px;
+}
+
+.country-flag-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
